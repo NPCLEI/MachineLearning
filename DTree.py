@@ -198,7 +198,7 @@ class DecisionTree:
         return t
 
 tree = DecisionTree()
-tree.ReadData("D:/Work_Space/西瓜数据2.0new.txt")
+tree.ReadData("./西瓜数据2.0new.txt")
 print('Read complete')
 dataset = tree.AutoCreate()
 print('calculate complete')
